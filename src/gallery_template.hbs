@@ -1,0 +1,34 @@
+<li class="item_gallery">
+    <div class="photo-card">
+        
+
+        <img class = "photo" src="{{webformatURL}}" data-source ="{{largeImageURL}}"  alt="{{tags}}" />
+{{!-- data-source ="{{largeImageURL}}" --}}
+        <div class="stats">
+            <p class="stats-item">
+                <i class="material-icons">favorite{{likes}}</i>
+                1108
+            </p>
+            <p class="stats-item">
+                <i class="material-icons">visibility{{views}}</i>
+                320321
+            </p>
+            <p class="stats-item">
+                <i class="material-icons">comment_bank{{comments}}</i>
+                129
+            </p>
+            <p class="stats-item">
+                <i class="material-icons">get_app{{downloads}}</i>
+                176019
+            </p>
+        </div>
+    </div>
+</li>
+
+{{!-- webformatURL - ссылка на маленькое изображение для списка карточек
+largeImageURL - ссылка на большое изображение (смотри пункт 'дополнительно')
+likes - количество лайков
+views - количество просмотров
+comments - количество комментариев
+downloads - количество загрузок 
+tags - наименование , что изображено --}}

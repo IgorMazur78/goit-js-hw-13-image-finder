@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  /*
+   * CSS image reference example.
+   */
+  /* background-image: url('./images/bg-pattern.png'); */
+}
+.body{
+  text-align: center;
+}
+
+.place_form{
+ display: flex;
+  position: fixed;
+  right: 491px;
+  top: 0px;
+  margin:  auto;
+  padding: 0;
+ 
+}
+.search_form{
+  display: block;
+  text-align: center;
+}
+.search{
+  margin: 0 auto;
+  padding: 0;
+}
+
+.photo{
+  width: 300px;
+  height: 140px;
+}
+.gallery_place{
+margin-top: 30px;
+}
+
+.gallery{
+  
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+.item_gallery{
+  margin-bottom: 5px;
+  border:1px solid grey;
+  box-shadow:  grey;
+}
+
+.stats{
+
+  display:flex ;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 9px;
+}
+/* .stats-item:hover,.stats-item:focus{
+  background: grey;
+} */
+.stats-item{
+  text-align: center;
+  margin: 0px;
+  width: 30px;
+  height: 25px;
+
+}
+.material-icons:hover, .material-icons:focus{
+  cursor: pointer;
+  text-align: center;
+  color: grey;
+}
+
+.item_gallery{
+  
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  text-align: left;
+  transition: transform 200ms ease-in;
+
+}
+.item_gallery:hover{
+  transform: scale(1.03);
+}
+
